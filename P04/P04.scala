@@ -6,6 +6,6 @@ object P04 extends App {
     ls.foldLeft(0)((sum, _) => sum + 1)
   }
 
-  // example test
+  // 6
   println(length(List(1, 1, 2, 3, 5, 8)))
 }

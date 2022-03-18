@@ -8,6 +8,6 @@ object PO3 extends App {
     case _ => "Invalid input"
   }
 
-  // example test
+  // 2
   println(nth(2, List(1, 1, 2, 3, 5, 8)))
 }

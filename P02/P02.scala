@@ -8,6 +8,6 @@ object P02 extends App {
     case _ => penultimate(ls.tail)
   }
 
-  // example test
+  // 5
   println(penultimate(List(1, 1, 2, 3, 5, 8)))
 }

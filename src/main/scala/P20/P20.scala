@@ -2,7 +2,7 @@ package P20
 
 object P20 extends App {
 
-  def removeAt(n: 1, ls: List[Char]): (List[Char], Char) = {
+  def removeAt[A](n: Int, ls: List[A]): (List[A], A) = {
     (ls.filter(x => ls.indexOf(x) != n), ls(n))
   }
 
